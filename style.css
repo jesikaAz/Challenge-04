@@ -1,0 +1,160 @@
+body {
+    background-color: gainsboro;
+}
+
+
+/* Barre de navigation */
+
+.logo {
+    margin:0 auto;
+    text-align: center;
+    padding: 10px;
+    
+}
+
+.container {
+    margin:auto;
+    width: 1020px;
+}
+
+.navbar {
+    width:800px;
+    margin:0 auto;
+    
+}
+
+.navbar ul {
+    text-align: center;
+    word-spacing: 5em; 
+    background-color:whitesmoke; 
+    padding: inherit;
+    height:40px;
+    padding-top: 20px;
+}
+
+.nav-links {
+    color:darkblue;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    font-family: 'Open Sans', arial, serif;
+    font-size:18px;
+    padding 0 20px;
+}
+
+a:hover {
+    color:darkgray;
+}
+
+/* Header */
+
+header {
+    background-color:#1355a0;
+    height:380px;
+}
+
+
+
+h1 {
+    color:white;
+    font-size:100px;
+    font-family: 'Open Sans', arial, serif;
+    font-weight:300;
+    text-transform:uppercase;
+    text-align:center;
+    font-style: oblique;
+}
+
+
+/* Formulaire */
+
+form {
+    background-color: whitesmoke;
+    height: 40px;
+    padding-top: 20px;
+    font-size: 18px;
+}
+
+
+/* Container */
+
+.plan {
+    text-align: center; 
+}
+
+h2 {
+    font-size:22px;
+    font-family: 'Open Sans', arial, serif;
+    color:#153962; 
+    text-align: center;
+
+}
+
+.container-2 {
+    margin:auto;
+    background-color:#fff;
+    width: 1020px;
+    height: 600px;
+    padding-top: 20px;  
+}
+
+.container-2 p {
+    text-align: center;
+}
+/* Footer*/
+
+h3 {
+    font-size:20px;
+    font-family: 'Open Sans', arial, serif;
+    color:#153962;
+}
+
+h3 p {
+    font-size:18px;
+    font-family: 'Open Sans', arial, serif;
+}
+
+.footer {
+    background-color:#1355a0;
+    width:1024px;
+    height:200px;
+    margin: auto;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+.adresse {
+    text-align: center;
+    font-weight: normal;
+    display:inline-block;
+    width:330px;
+    height: 330px;
+    color:whitesmoke;
+    padding-top: 5px;
+}
+
+.horaires {
+    text-align: center;
+    font-weight: normal;
+    display:inline-block;
+    width:330px;
+    height: 330px;
+    color:whitesmoke;
+    padding-top: 5px;
+}
+
+.contact {
+    text-align: center;
+    font-weight: normal;
+    display:inline-block;
+    width:330px;
+    height: 330px;  
+    color:whitesmoke; 
+    padding-top: 5px;
+  
+}
+
+.logos {
+    height:35px;
+    width:35px;
+}
