@@ -1,15 +1,17 @@
+/*--Description: Réalisation d'une maquette pour "Maison de la Copie"
+Auteur: Jessica Anschutz 
+Date: Semaine 25 --*/
+
 body {
     background-color: gainsboro;
 }
-
 
 /* Barre de navigation */
 
 .logo {
     margin:0 auto;
     text-align: center;
-    padding: 10px;
-    
+    padding: 10px;   
 }
 
 .container {
@@ -19,8 +21,7 @@ body {
 
 .navbar {
     width:800px;
-    margin:0 auto;
-    
+    margin:0 auto;   
 }
 
 .navbar ul {
@@ -63,26 +64,6 @@ h1 {
     font-style: oblique;
 }
 
-
-/* Espace client */
-
-form {
-    font-family: 'Open Sans', arial, serif;
-    font-size: 16px;
-    padding-left: 300px;
-    padding-top: 10px;
-    padding-bottom: 30px;
-}
-
-.espaceclient h2 {
-    font-size:22px;
-    font-family: 'Open Sans', arial, serif;
-    text-align: center;
-    background-color: white;
-    height: 40px;
-    padding-top: 10px;
-}
-
 /* Formulaires */
 
 .container-3{
@@ -90,8 +71,7 @@ form {
     background-color:whitesmoke;
     width: 1020px;
     height: 630px;
-    padding-top: 20px; 
-    
+    padding-top: 20px;    
 }
 
 .container-3 p {
@@ -133,8 +113,6 @@ form {
     text-align: center;
 }
 
-
-
 /* Container */
 
 .plan {
@@ -146,7 +124,6 @@ h2 {
     font-family: 'Open Sans', arial, serif;
     color:#153962; 
     text-align: center;
-
 }
 
 .container-2 {
@@ -160,9 +137,28 @@ h2 {
 .container-2 p {
     text-align: center;
     font-size:16px;
-    font-family: 'Open Sans', arial, serif;
-    
+    font-family: 'Open Sans', arial, serif;   
 }
+
+/* Espace client */
+
+form {
+    font-family: 'Open Sans', arial, serif;
+    font-size: 16px;
+    padding-left: 300px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+.espaceclient h2 {
+    font-size:22px;
+    font-family: 'Open Sans', arial, serif;
+    text-align: center;
+    background-color: white;
+    height: 40px;
+    padding-top: 10px;
+}
+
 /* Footer*/
 
 h3 {
