@@ -20,7 +20,7 @@
 <body>  
     
   
-    <!-- Barre de navigation -->
+<!-- Barre de navigation -->
     <div class="logo"> 
         <img src="css/logo.jpg" alt=Maison-Copie>
     </div>
@@ -30,39 +30,19 @@
             <nav class="navbar">
                 <ul class="navbar">
                     <a href="#" class="nav-links">Accueil</a>
-                    <a href="#" class="nav-links">Compte-Utilisateur</a> 
-                    <a href="#" class="nav-links">Devis</a>
+                    <a href="#" class="nav-links">Devis</a> 
+                    <a href="#" class="nav-links">Espace-client</a>
                 </ul>
             </nav> 
     
-     <!-- Header -->
-    <div class="title">
-        <h1>Maison-Copie</h1>
-    </div>
+            <!-- Header -->
+            <div class="title">
+                <h1>Maison-Copie</h1>
+            </div>
     
-    <!-- Formulaire du haut -->
-    <form name="form1" method="post" action="about_login/fx_sql_look_visiteur.php" target="_top">
-        <table width="800" height="0" border="0" align="center" cellpadding="0" cellspacing="0">
-          <tr class="F0"> 
-            <td> 
-                <div align="center" valign="middle">Login: 
-                <input name="searchID" class="fg150owo12C2px" type="text" id="searchID" value="" size="15" maxlength="15">
-                </div>
-            </td>
-            <td> 
-              <div align="center" valign="middle">
-                Clé: 
-                <input name="searchPWD" type="password" class="fg150owo12C2px" id="searchPWD" value="" size="15" maxlength="15">
-              </div></td>
-            <td> <div align="left"> 
-                <input class="fg150owo12C2px" name="go" type="submit" id="go" value="CONNEXION">
-                </div>    </td>    
-
-        </table>
-      </form>
-   </header>
+        </header>
 </div>
-    
+<!-- Page de présentation --> 
     <div class="container-2">
         <h2>Présentation</h2>
         <p> Professionnel de la reprographie depuis 1987, <strong>élu n°1 en Bretagne       </strong>pour le chiffrage en ligne reprographie.</p>
@@ -74,8 +54,101 @@
             <img src="css/planacces.jpg">
         </div> 
     </div>
+ 
+<!-- Formulaire coordonnées -->
     
+<div class="container-3">
+        <h2>Demande de devis</h2>
+            <p> Créer un compte utilisateur en quelques clics en remplissant les 3 champs obligatoires. <br/>Vous serez connecté immédiatement avec <strong>accès illimité et gratuit </strong> aux devis en ligne.  
+            </p>
+        
+    <div class=formulaire-1>
     
+        <h2>Vos coordonn&eacute;es</h2>
+        <div class="titre-formulaire">
+            <div> Votre statut
+                      <select name="csp" id="csp">
+                        <option value="" selected></option>
+                        <option value="Particulier">Particulier</option>
+                        <option value="Association">Association</option>
+                        <option value="Entreprise">Entreprise</option>
+                        <option value="Administration">Administration</option>
+                        <option value="Etudiant">Etudiant</option>
+                      </select>
+            </div>
+            
+        <div> Votre nom 
+            <input name="ste" type="text" id="ste"  value="" size="50" maxlength="50">
+        </div>    
+            
+        <div> Adresse 
+            <input name="adr1" type="text" id="adr12" value="" size="40" maxlength="40">
+        </div>
+            
+        <div> Complement adresse : 
+            <input name="adr2" type="text" id="adr22" value="" size="40" maxlength="40">
+        </div>
+            
+        <div> Ville :
+            <input name="ville" type="text" id="ville2" value="" size="40" maxlength="40">
+        </div>
+            
+        <div> Code postal:
+            <input name="cp" type="text" id="cp2" value="" size="10" maxlength="10">
+        </div>
+        
+        <div>
+            T&eacute;l :
+            <input name="tel" type="text" id="tel3" value="" size="15" maxlength="15"> 
+        </div>
+            
+        <div>T&eacute;l (mobile) 
+            <input name="tel2" type="text" id="tel22" value="" size="15" maxlength="15">  
+        </div>
+            
+        <div> Email 
+         <input name="email" type="text" id="email2" value="" size="40" maxlength="40">   
+        </div>   
+
+  
+        <div class=loi>
+            <p>Conform&eacute;ment &agrave; la loi informatique et libert&eacute; n&deg; 78-17 du 6/01/1978, vous disposez d'un droit d'acc&eacute;s et de rectification aupr&eacute;s de LA MAISON DE LA COPIE, 10 bis avenue Henri Fr&eacute;ville.35200 RENNES.</p>
+        </div>
+        
+        <div class="submit"> 
+            <input type="submit" name="SUBMIT" value="Créer mon compte utilisateur">
+        </div>    
+    </div> 
+  </div>
+     
+<!-- Espace client -->   
+<div class=espaceclient>
+    <h2>Espace client</h2>
+    <form name="form1" method="post" action="about_login/fx_sql_look_visiteur.php" target="_top">
+        <table> 
+            <td> 
+                <div align="center" valign="middle">Login: 
+                    <input name="searchID" class="fg150owo12C2px" type="text" id="searchID" value="" size="15" maxlength="15">
+                </div>
+            </td>
+            <td> 
+              <div align="center" valign="middle">
+                Clé: 
+                    <input name="searchPWD" type="password" class="fg150owo12C2px" id="searchPWD" value="" size="15" maxlength="15">
+              </div>
+            </td>
+            <td> 
+                <div align="left"> 
+                    <input class="fg150owo12C2px" name="go" type="submit" id="go" value="CONNEXION">
+                </div>   
+            </td>    
+        </table>
+    </form>      
+    
+</div> <!-- fin du formulaire coordonnées -->
+              
+        
+        
     <div class="footer">
         <div class="adresse">
             <img class="logos" src="css/localisation.png">
@@ -94,14 +167,8 @@
             <img class="logos" src="css/tel%202.jpg">
             <h3> Contacts</h3>
             <p> Par telephone au : 02 99 53 19 23 <br/> Par mail : contact@maison-copie.fr </p>
-        </div>
-        
-        
-        
+        </div>     
     </div>
-
-    
-    
   
 </body>
 
